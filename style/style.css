@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1.1rem;
+}
+
+.container {
+  padding: 32px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.container-constant {
+  padding: 32px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.col {
+  width: 100%;
+}
+
+.col1-3 {
+  width: 33.33%;
+}
+
+.col2-3 {
+  width: 66.66%;
+}
+
+.dimensions {
+  height: 400px;
+  width: 800px;
+}
+
+.reziseable {
+  resize: both;
+  overflow: hidden;
+  text-align: center;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.reziseable::-webkit-resizer {
+  background-image: url(../img/expand-arrows-alt-solid.svg);
+}
+
+.paper {
+  filter: drop-shadow(-4px 8px 5px #00000060)
+}
+
+.tilling-paper {
+  margin: 200px;
+  border: 100px solid;
+  border-image: url(../img/tilling-paper.png);
+  border-image-slice: 200;
+  border-image-repeat: round round;
+  border-image-width: 202px;
+  border-image-outset: 200px;
+
+  background-image: url(../img/paper-tile.jpg);
+  background-repeat: round;
+}
+
+.tilling-paper--padding-box {
+  border: 50px solid;
+  border-image: url(../img/tilling-paper.png);
+  border-image-slice: 200;
+  border-image-repeat: round round;
+  border-image-width: 400px;
+
+  background-image: url(../img/paper-tile.jpg);
+  background-size: 400px 400px;
+  background-clip: padding-box;
+  background-repeat: round;
+}
