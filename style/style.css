@@ -65,25 +65,25 @@ body {
 .tilling-paper {
   margin: 200px;
   border: 10px solid;
-  border-image: url(../img/tilling-paperHD.png);
+  border-image: url(../img/tilling-paper-style.png);
   border-image-slice: 400;
   border-image-repeat: round round;
   border-image-width: 400px;
   border-image-outset: 50px;
 
-  background-image: url(../img/paper-tileHD.jpg);
+  background-image: url(../img/paper-tile-style.jpg);
   background-repeat: round;
 }
 
 .tilling-paper--padding-box {
   filter: brightness(1);
   border: 50px solid;
-  border-image: url(../img/tilling-paperHD.png);
+  border-image: url(../img/tilling-paper-style.png);
   border-image-slice: 400;
   border-image-repeat: round round;
   border-image-width: 400px;
 
-  background-image: url(../img/paper-tileHD.jpg);
+  background-image: url(../img/paper-tile-style.jpg);
   background-size: 400px 400px;
   background-clip: padding-box;
   background-repeat: round;
